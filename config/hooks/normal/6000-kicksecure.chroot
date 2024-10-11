@@ -1,0 +1,3 @@
+#!/bin/bash
+# Need to mention dracut here or it will uninstall the initramfs system for unknown reasons
+SECURITY_MISC_INSTALL=force apt install -y kicksecure-xfce-host dracut

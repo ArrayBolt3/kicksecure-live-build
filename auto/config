@@ -1,0 +1,9 @@
+#!/bin/sh
+
+set -e
+
+lb config noauto \
+	--debootstrap-options "--include=apt-transport-https,ca-certificates,openssl" \
+	--distribution bookworm \
+	--initramfs dracut-live \
+	"${@}"
