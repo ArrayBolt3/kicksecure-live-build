@@ -1,4 +1,8 @@
-dracut-live
 live-config
 live-config-systemd
 systemd-sysv
+dracut-live
+dracut-config-generic
+dracut
+user-setup
+sudo

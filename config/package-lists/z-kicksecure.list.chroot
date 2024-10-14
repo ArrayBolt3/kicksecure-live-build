@@ -1,8 +1,5 @@
 ca-certificates
 apt-transport-https
-
-dracut
-
 legacy-dist
 kicksecure-packages-dependencies-pre
 spice-vdagent
@@ -12,3 +9,5 @@ live-config-dist
 user-setup
 squashfs-tools
 cryptsetup-initramfs
+dracut
+kicksecure-xfce-host

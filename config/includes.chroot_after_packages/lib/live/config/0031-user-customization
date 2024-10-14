@@ -1,0 +1,4 @@
+#!/bin/sh
+
+chsh -s /usr/bin/zsh user
+chfn -f 'Kicksecure live user' user
