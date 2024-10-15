@@ -6,3 +6,4 @@ dracut-config-generic
 dracut
 user-setup
 sudo
+efibootmgr

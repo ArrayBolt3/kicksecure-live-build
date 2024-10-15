@@ -1,13 +1,37 @@
+# Core
 ca-certificates
 apt-transport-https
+
+# Kicksecure pre-depends
 legacy-dist
 kicksecure-packages-dependencies-pre
-spice-vdagent
+
+# Installer
 calamares
 calamares-settings-debian
 live-config-dist
 user-setup
-squashfs-tools
-cryptsetup-initramfs
+efivar
+
+# Dracut
 dracut
+dracut-config-rescue
+cryptsetup-initramfs
+
+# Misc utilities
+mokutil
+pigz
+sbsigntool
+squashfs-tools
+gpgsm
+wget
+zstd
+
+# VM integration
+virtualbox-guest-utils
+virtualbox-guest-x11
+spice-vdagent
+
+# Kicksecure components, kicksecure-xfce-host MUST be installed last
+firmware-nonfreedom
 kicksecure-xfce-host

@@ -1,0 +1,28 @@
+# Exclude some odd packages that probably got pulled in via Recommends
+Package: xserver-xorg-video-all
+Pin: version *
+Pin-Priority: -1
+
+Package: isc-dhcp-client
+Pin: version *
+Pin-Priority: -1
+
+Package: hdmi2usb-fx2-firmware
+Pin: version *
+Pin-Priority: -1
+
+Package: indi-dsi
+Pin: version *
+Pin-Priority: -1
+
+Package: ixo-usb-jtag
+Pin: version *
+Pin-Priority: -1
+
+Package: jh7100-bootloader-recovery
+Pin: version *
+Pin-Priority: -1
+
+Package: firmware-tomu
+Pin: version *
+Pin-Priority: -1
